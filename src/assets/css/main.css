@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300,regular);
+@import url(https://fonts.googleapis.com/css?family=Saira+Stencil:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@font-face {
+    font-family: 'Attitude';
+    src: url('../fonts/Attitude-Inline.otf') format('truetype');
+}
+:root {
+    --font-primary: 'Attitude', sans-serif;
+}
+
+.input-group {
+    transition: border-color 0.5s ease !important;
+}
+
+.font-primary {
+    font-family: var(--font-primary) !important;
+}
+
+:root {
+    --background: #0f0f0f;
+    --background-light: #1a1a1a;
+}
+main {
+    background-color: var(--background);
+}
+
+.bg-card {
+    padding: 0 !important;
+}
